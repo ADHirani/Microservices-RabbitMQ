@@ -1,0 +1,36 @@
+{
+  "name": "admin-nodejs-mysql",
+  "version": "1.0.0",
+  "description": "admin panel build using nodejs and as a database have used mysql",
+  "main": "app.ts",
+  "scripts": {
+    "test": "nodemon app.ts",
+    "start": "nodemon ./dist/app.js",
+    "build": "npx tsc -w"
+  },
+  "keywords": [
+    "nodejs",
+    "mysql",
+    "microservices",
+    "admin"
+  ],
+  "author": "ADHirani",
+  "license": "ISC",
+  "dependencies": {
+    "@types/amqplib": "^0.10.5",
+    "@types/morgan": "^1.9.9",
+    "amqplib": "^0.10.4",
+    "balanced-match": "^3.0.1",
+    "express": "^4.21.0",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "reflect-metadata": "^0.2.2",
+    "typeorm": "^0.3.20"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.5.5",
+    "nodemon": "^3.1.7",
+    "typescript": "^5.6.2"
+  }
+}
